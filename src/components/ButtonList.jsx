@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { setCatgeory } from "../utils/appslice";
+import { setCatgeory } from "../utils/appSlice";
 
 
 export default function ButtonList() {
