@@ -4,7 +4,7 @@ import { API_KEY, YOUTUBE_VIDEOS_API } from "../constants/api";
 import VdoCard from "./VdoCards";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { setHomeViedo } from "../utils/appslice";
+import { setHomeViedo } from "../utils/appSlice";
 
 
 
