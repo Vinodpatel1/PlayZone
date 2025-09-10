@@ -5,7 +5,7 @@ import {
   setCatgeory,
   setSearchSuggestion,
   toggleSidebar,
-} from "../utils/appslice";
+} from "../utils/appSlice";
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import { API_KEY, YT_SEARCH_API } from "../constants/api"; // make sure API_KEY is defined
